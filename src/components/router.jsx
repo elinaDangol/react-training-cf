@@ -4,6 +4,8 @@ import Controller from './Controller';
 import App from './App';
 import Hello from './Hello';
 import Heroes from './Heroes';
+import HooksEg from './HooksEg';
+import SuperHero from './SuperHero'
 
 export default function(){
     return(
@@ -12,6 +14,9 @@ export default function(){
             <Route path="/controller" component={Controller}/>
             <Route path="/hello" component={Hello}/>
             <Route path='/heroes' component={Heroes} />
+            <Route path='/hooks' component={HooksEg} />
+            <Route path='/super' component={SuperHero} />
+
         </Switch>
     );
 }
