@@ -30,6 +30,9 @@ class Heroes extends Component {
                         <th>Weakness</th>
                     </tr>
                     {res}
+                    <tr>
+                        
+                    </tr>
                 </table>
             </div>
         );

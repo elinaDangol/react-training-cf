@@ -19,6 +19,9 @@ const Nav = () => (
         <li className="nav-item">
             <NavLink className="nav-link" to="/super">Super</NavLink>
         </li>
+        <li className="nav-item">
+            <NavLink className="nav-link" to="/assignment">Assignment</NavLink>
+        </li>
     </ul >
 );
 

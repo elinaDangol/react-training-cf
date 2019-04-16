@@ -1,7 +1,7 @@
 import React from 'react';
 import Select from 'react-select';
 import NameLabel from './NameLabel';
-import Controller from './Controller';
+import Comment from './Comment';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar';
@@ -34,12 +34,14 @@ class App extends React.Component {
       { value: 'vanilla', label: 'Vanilla' },
     ];
 
-    // const { selectedOption } = this.state;
+    const { selectedOption } = this.state;
 
     const { name } = this.state;
     return (
       <div>
         <h1>Hello</h1>
+        {this.state.name}
+        {this.state.selectedOption}
       </div>
 
     );
